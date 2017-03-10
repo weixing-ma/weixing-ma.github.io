@@ -1,0 +1,29 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body, html{
+  height:100%;
+  width: 100%;
+  box-sizing:border-box;
+}
+.container{
+  width: 100%;
+}
+.header{
+  height:1rem;
+  background: black;
+}
+.header h4{
+  color:#fff;
+  width:100%;
+  font-size: .48rem;
+  text-align: center;
+  line-height: 1rem;
+}
+.banner{
+  height:6.81rem;
+  /*width:10.8rem;*/
+  background:url(img/1.jpg) no-repeat;
+  background-size:100%;
+}
